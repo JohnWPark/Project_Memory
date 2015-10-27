@@ -1,0 +1,45 @@
+/*
+body {
+  background-color: orange;
+}
+
+div#gameboard {
+background: #6792f3;
+border: #999 1px solid;
+width: 800px;
+height: 540px;
+padding: 24px;
+margin: 0px auto;
+
+}
+
+#gameboard {
+  width: 48px;
+  height: 48px;
+
+}
+
+div img {
+  object-fit: fill;
+}
+
+.card{
+  border:#000 1px solid;
+  width: 100px;
+  height: 120px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+*/
+
+#gameboard {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+
+}
+
+#gameName {
+  text-align: center;
+  margin: 0;
+}
