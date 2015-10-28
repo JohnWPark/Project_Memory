@@ -1,76 +1,61 @@
+
 * {
   box-sizing:border-box;
 }
 
-body {
-  background-color: orange;
-}
-
-div#gameboard {
-background: #6792f3;
-border: #999 1px solid;
-width: 800px;
-height: 540px;
-padding: 24px;
-margin: 0px auto;
-
-}
-
-#gameboard {
-  width: 48px;
-  height: 48px;
-
-}
-
-div img {
-  height: 100px;
-  width: 75px;
-  display: none;
-}
-
-.card{
-  border:#000 1px solid;
-  width: 100px;
-  height: 120px;
-  float: left;
-  margin: 10px;
-  padding: 10px;
-}
-/*
-*/
-
-#gameboard {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
-
-}
-
-#gameName {
+header {
+  background: #6ab47b;
+  border-color: #599a68;
   text-align: center;
   margin: 0;
 }
 
-.imagesList {
-display: inline-block;
-width: 125px;
-height: 95px;
-margin: -5px;
-border: 5px solid black;
-background: gray;
+h1 {
+  color: #fff;
+  font-family: 'Changa One';
+  margin: 0;
+  font-size: 3.75em;
+  font-weight: normal;
+  padding: 10px;
+}
 
+h2 {
+  font-size: 0.5em;
+  padding: 10px;
+}
+
+#wrapper{
+
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 0 5%;
+  background-image: url ("you_dont_say.jpg");
+  background-size: cover;
+}
+
+body {
+  background-color: lemonchiffon;
+  background-position: center;
 }
 
 
-ul li {
-  text-decoration: none;
+/***********************
+IMAGES
+***********************/
+
+div img {
+  height: 190px;
+  width: 115px;
+  display: none;
 }
+
 
 .floated_img
 {
-    border: 2px solid black;
+    border: 1px solid black;
     float: left;
-    height: 100px;
-    width: 75px;
+    height: 190px;
+    width: 115px;
+    margin: 5px 1px 1px 1px;
 
 }
