@@ -43,6 +43,7 @@ $("button").on('click', function(){
         }, 700)
       }
     }
+    
 //clickCounter increases by 1 with every click.
     clickCounter++;
   });

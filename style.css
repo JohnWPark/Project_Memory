@@ -29,7 +29,7 @@ h2 {
   max-width: 750px;
   margin: 0 auto;
   padding: 0 5%;
-  
+
 }
 
 .big_nick {
@@ -42,7 +42,6 @@ body {
   background-position: center;
 }
 
-
 /***********************
 IMAGES
 ***********************/
@@ -52,7 +51,6 @@ div img {
   width: 115px;
   display: none;
 }
-
 
 .floated_img
 {
