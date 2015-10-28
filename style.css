@@ -29,8 +29,12 @@ h2 {
   max-width: 750px;
   margin: 0 auto;
   padding: 0 5%;
-  background-image: url ("you_dont_say.jpg");
-  background-size: cover;
+  
+}
+
+.big_nick {
+  background-image: url("you_dont_say;");
+
 }
 
 body {

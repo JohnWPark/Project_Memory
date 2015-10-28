@@ -5,19 +5,15 @@
 //stores the number of clicks into clickCounter
   var clickCounter = 0;
 
+//Click event listener on the 'button'
 $("button").on('click', function(){
   $('img').hide();
 //  var randomIndex = Math.floor(Math.random()*(i+1));
   for(var i= 1; i <= 20; i++){
       var randomIndex = Math.floor(Math.random()*(20 + 1))
       $('#wrapper').append($('#' + randomIndex))
-
-//    $("#" + i).insertBefore("#" + (20 - i));
   }
 })
-
-
-
 //click event listener on the 'floated.img' class
   $(".floated_img").on('click',function(){
 //the '$(this).children().eq(0)' refers to the first child of the '.floated_img' being clicked and assigns it to jquery object, image
@@ -44,7 +40,6 @@ $("button").on('click', function(){
         setTimeout(function(){
           firstCardImage.hide();
           secondCardImage.hide();
-
         }, 700)
       }
     }
@@ -52,18 +47,14 @@ $("button").on('click', function(){
     clickCounter++;
   });
 
-/*
-  Array.prototype.shuffle = function() {
-      var input = this;
 
-      for (var i = input.length-1; i >=0; i--) {
+//Silver:
+  //DRY the code
+  //Improve styling
+  //Include various alerts for specific actions
 
-          var randomIndex = Math.floor(Math.random()*(i+1));
-          var itemAtIndex = input[randomIndex];
-
-          input[randomIndex] = input[i];
-          input[i] = itemAtIndex;
-      }
-      return input;
-  }
-*/
+//Gold:
+  //Add timer and scoring
+  //Add more decks
+  //Implement sound effects
+  //Inplement card animations
